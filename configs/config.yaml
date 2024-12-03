@@ -1,0 +1,18 @@
+# API Keys
+alpha_vantage_key: "NQ06ALZ4ZGBBF5TB"
+newsapi_key: "efe3ab3c73f34d49ba0010e65cadccf8"
+
+# Data Collection
+symbols: ["AAPL", "MSFT", "GOOGL"]
+start_date: "2024-11-03"
+end_date: "2024-11-30"
+
+# Model Parameters
+model:
+  hidden_dim: 256
+  num_layers: 4
+  num_heads: 8
+  num_fusion_layers: 2
+  market_features: 10
+  learning_rate: 1e-4
+  num_epochs: 100

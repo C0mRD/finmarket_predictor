@@ -1,0 +1,18 @@
+torch
+transformers
+pandas
+numpy
+yfinance
+alpha_vantage
+newsapi-python
+fastapi
+uvicorn
+streamlit
+pytorch-lightning
+scikit-learn
+plotly
+pyyaml
+pyarrow==9.0.0
+ta==0.10.2
+seaborn==0.12.2
+-e .
